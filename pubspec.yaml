@@ -1,0 +1,50 @@
+name: corideapp
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.2 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  flutter_bloc: ^8.1.4
+  geolocator: ^11.0.0
+  bloc_concurrency: ^0.2.4
+  flutter_svg: ^2.0.9
+  fl_country_code_picker: ^0.1.9+1
+  pinput: ^4.0.0
+  image_picker: ^1.0.7
+  google_maps_flutter: ^2.6.0
+  geocoding: ^3.0.0
+  flutter_credit_card: ^4.0.1
+  get: ^4.6.5
+  google_fonts: ^4.0.4
+  google_maps_webservice:
+  flutter_platform_widgets: ^6.1.0
+  flutter_screenutil: ^5.9.0
+  introduction_screen: ^3.1.14
+  animations: ^2.0.11
+  flutter_settings_ui: ^3.0.1
+  dotted_border: ^2.0.0+3
+  flutter_animate: ^4.2.0+1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
